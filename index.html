@@ -4,6 +4,32 @@
   
 </head>
 <body>
+<table border='1' cellpadding='10' cellspacing='5' width='40%'>
+  <thead>
+  <tr height='55px'>
+    <th colspan="2"> Міста України </th>
+  </tr>
+    </thead>
+  <tbody>
+    <tr>
+    <th width='25%'> Місто </th>
+    <th> Площа, км, кв. </th>
+  </tr>
+  <tr>
+    <td> Херсон </td>
+    <td> 65.2 </td>
+  </tr>
+  <tr>
+    <td> Одеса </td>
+    <td> 162.4</td>
+  </tr>
+    </tbody>
+  <tfoot>
+    <th> Загальна площа </th>
+    <th> 227.6 </th>
+  </tfoot>
+</table>
+  
 <a href='https://miskrada.kherson.ua/'><h1>Херсон</h1></a>
   
   <p>Місто Херсон є адміністративним центром Херсонської області в Україні. Розташоване на південному заході країни, на південному березі Дніпра, біля впадіння річки Дніпро в Дніпровську затоку Чорного моря.<br>
@@ -24,6 +50,39 @@
   <li>Театр</li>
   <li>Асканія-Нова</li>
   </ol>
+
+    <form action='#' method='get'>
+   <label for='name'>First Name: &nbsp;&nbsp;&nbsp;&nbsp; </label>
+   <input type='text' id='name' name='input_name' required>
+   <br>
+   <label for='name'> Last Name: </label>
+   <input type='text' id='lname' name='last_name' required>
+    <p>
+   <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+   <label for="vehicle1"> I have a bike</label><br>
+   <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+   <label for="vehicle2"> I have a car</label><br>
+   <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+   <label for="vehicle3"> I have a boat</label>
+    </p>
+       <p>
+   <input type="radio" id="vehicle1" name="vehicle1" value="Bike">
+   <label for="vehicle1"> I have a bike</label><br>
+   <input type="radio" id="vehicle2" name="vehicle1" value="Car">
+   <label for="vehicle2"> I have a car</label><br>
+   <input type="radio" id="vehicle3" name="vehicle1" value="Boat">
+   <label for="vehicle3"> I have a boat</label>
+    </p>
+
+      <textarea>
+        hi
+      </textarea>
+      <br>
+      <button type='submit'> Send data</button>
+      
+    </form>
+
+
   
 </body>
 
