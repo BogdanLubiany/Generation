@@ -1,0 +1,24 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background: url(gray.png);
+}
+h1 {
+  background-color: gold;
+  color: green;
+  
+}
+
+#mainheader {
+  color: #5d3c9a;
+  text-shadow: 2px 2px 5px red;
+}
+
+p.center {
+  text-align: center;
+}
+#kherson {
+  text-shadow: 2px 2px 5px #24630d;
+}
